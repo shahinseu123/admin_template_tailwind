@@ -13,11 +13,11 @@ body {
 }
 
 .active a {
-    color: #2FFC8D;
+    color: #2FFC8D !important;
 }
 
 .h__full {
-    height: 86vh;
+    height: 90vh;
 }
 
 ::-webkit-scrollbar {
@@ -30,4 +30,13 @@ body {
 
 ::-webkit-scrollbar-thumb {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#absolute_side_bar {
+    width: 250px;
+    height: 100vh;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    z-index: 1;
 }
